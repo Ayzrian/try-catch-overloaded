@@ -1,5 +1,5 @@
 # try-catch-overloaded
-This repository contains TS and JS library for overloading Try/Catch statements.
+This package contains function for overloading Try/Catch statements.
 
 ### Examples
 ```javascript
