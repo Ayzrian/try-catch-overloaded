@@ -1,17 +1,24 @@
+const { MisConfiguredExecutorError } = require('./errors/MisConfiguredExecutorError');
 
 
 function Try(functionExecutor) {
     const errorHandlers = [];
 
     const execute = function () {
+        if (errorHandlers.length === 0) {
+            throw new MisConfiguredExecutorError();
+        }
+
         try {
-            functionExecutor();
+            return functionExecutor();
         } catch (e) {
             for (const handlerInformation of errorHandlers) {
                 if (e instanceof handlerInformation.errorClass) {
-                    handlerInformation.errorHandler(e);
+                    return handlerInformation.errorHandler(e);
                 }
             }
+
+            throw e;
         }
     }
 

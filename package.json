@@ -1,7 +1,7 @@
 {
   "name": "try-catch-overloaded",
-  "version": "0.0.2",
-  "description": "This repository contains TS and JS library for overloading Try/Catch statements.",
+  "version": "0.1.0",
+  "description": "This package provides function wrapper for overloading Try/Catch statements.",
   "main": "index.js",
   "scripts": {
   },
