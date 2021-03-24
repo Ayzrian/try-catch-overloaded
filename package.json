@@ -1,6 +1,6 @@
 {
   "name": "try-catch-overloaded",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This repository contains TS and JS library for overloading Try/Catch statements.",
   "main": "index.js",
   "scripts": {
