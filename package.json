@@ -1,0 +1,19 @@
+{
+  "name": "try-catch-overloaded",
+  "version": "1.0.0",
+  "description": "This repository contains TS and JS library for overloading Try/Catch statements.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayzrian/try-catch-overloaded.git"
+  },
+  "keywords": [],
+  "author": "Nazarii Romankiv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ayzrian/try-catch-overloaded/issues"
+  },
+  "homepage": "https://github.com/Ayzrian/try-catch-overloaded#readme"
+}
